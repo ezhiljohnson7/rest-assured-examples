@@ -1,5 +1,4 @@
-Test Cases in RestAssuredStatusCheckTestCases:
-
+## Test Cases in RestAssuredStatusCheckTestCases:
 
 1. Perform get  /api/v1/students without 'Authorization' and check if you get 401.
 2. Perform get /api/v1/students with 'Authorization' but invalid username/password.
@@ -13,5 +12,3 @@ Test Cases in RestAssuredStatusCheckTestCases:
 10. Perform get on /api/v1/student/{invalid-student name} and check if 404.
 11. Perform delete on /api/v1/student/{student name} and check if 200.
 12. Perform delete on /api/v1/student/{invalid-student name} and check if 404.
-
-
